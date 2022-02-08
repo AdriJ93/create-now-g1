@@ -51,7 +51,9 @@ function Header() {
               </Link>
             </li>
           </ul>
-          <MenuIcon className="nav-icon" onClick={handleClick} />
+          <div className="nav-icon" onClick={handleClick}>
+            <MenuIcon />
+          </div>
         </div>
       </nav>
     </>
