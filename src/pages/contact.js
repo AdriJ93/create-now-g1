@@ -15,7 +15,12 @@ function Contact() {
         </div>
         <div className="rightContactSide">
           <div>
-            <form id="contact-form" method="POST">
+            <form
+              id="contact-form"
+              method="post"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+            >
               <label htmlFor="name">Dein Name</label>
               <input name="name" placeholder="" type="text" required />
               <label htmlFor="email">Deine E-Mail Adresse</label>
