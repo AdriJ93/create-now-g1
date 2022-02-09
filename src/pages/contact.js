@@ -17,10 +17,11 @@ function Contact() {
           <div>
             <form
               name="contact"
-              method="POST"
+              method="post"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
             >
+              <input type="hidden" name="form-name" value="contact" />
               <label htmlFor="name">Dein Name</label>
               <input name="name" type="text" required />
               <label htmlFor="email">Deine E-Mail Adresse</label>
