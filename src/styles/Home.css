@@ -12,10 +12,10 @@
   text-align: center;
   color: white;
   background: rgba(0, 0, 0, 0.8);
-  padding: 80px 80px 100px 80px;
+  padding: 60px 80px 100px 80px;
   border-radius: 15px;
   height: fit-content;
-  margin-top: 8%;
+  margin-top: 7%;
 }
 
 .container h1 {
