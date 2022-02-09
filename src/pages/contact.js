@@ -16,8 +16,8 @@ function Contact() {
         <div className="rightContactSide">
           <div>
             <form
-              id="contact-form"
-              method="post"
+              name="contact"
+              method="POST"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
             >
