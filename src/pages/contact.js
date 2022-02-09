@@ -20,6 +20,7 @@ function Contact() {
               method="POST"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
+              value="contact"
             >
               <label htmlFor="name">Dein Name</label>
               <input name="name" placeholder="" type="text" required />
