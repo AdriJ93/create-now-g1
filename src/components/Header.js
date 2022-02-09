@@ -52,7 +52,7 @@ function Header() {
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
-            <MenuIcon />
+            <MenuIcon className="MenuButton" />
           </div>
         </div>
       </nav>
