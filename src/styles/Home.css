@@ -47,7 +47,7 @@
   .container {
     height: auto;
     margin-bottom: 10%;
-    padding: 40px;
+    padding: 40px 40px 60px 40px;
   }
 
   .home {
