@@ -52,7 +52,7 @@ function Header() {
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
-            <MenuIcon className="MenuButton" />
+            <MenuIcon sx={{ fontSize: 45 }} />
           </div>
         </div>
       </nav>
