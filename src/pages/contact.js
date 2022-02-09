@@ -21,14 +21,13 @@ function Contact() {
               data-netlify="true"
               data-netlify-honeypot="bot-field"
             >
-              <input type="hidden" name="form-name" value="contact" />
               <label htmlFor="name">Dein Name</label>
               <input name="name" type="text" required />
               <label htmlFor="email">Deine E-Mail Adresse</label>
               <input name="email" type="email" required />
               <label htmlFor="message">Deine Nachricht</label>
               <textarea name="message" required></textarea>
-              <button type="submit"> Senden</button>
+              <button type="submit">Senden</button>
             </form>
           </div>
         </div>
