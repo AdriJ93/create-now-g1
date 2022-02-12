@@ -31,7 +31,7 @@ function Offers() {
               <h2>179,00 €</h2>
               <div className="buttonDiv">
                 <a
-                  href="https://create-now-shop.myshopify.com/products/create-now-einsteiger-paket"
+                  href="https://form.jotform.com/220421165410338"
                   target="_blank"
                 >
                   <button className="buttonOffers"> Jetzt buchen </button>
@@ -67,7 +67,7 @@ function Offers() {
               <h2>359,00 €</h2>
               <div className="buttonDiv">
                 <a
-                  href="https://create-now-shop.myshopify.com/products/create-now-standard-paket"
+                  href="https://form.jotform.com/220406887236055"
                   target="_blank"
                 >
                   <button className="buttonOffers"> Jetzt buchen </button>
