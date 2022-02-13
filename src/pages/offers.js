@@ -31,7 +31,7 @@ function Offers() {
               <h2>179,00 €</h2>
               <div className="buttonDiv">
                 <a
-                  href="https://form.jotform.com/220421165410338"
+                  href="https://form.jotform.com/220432833114343"
                   target="_blank"
                 >
                   <button className="buttonOffers"> Jetzt buchen </button>
