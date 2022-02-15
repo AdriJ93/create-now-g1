@@ -27,6 +27,12 @@ function Footer() {
         <Link className="linkItem" to="/impressum">
           Impressum
         </Link>
+        <Link className="linkItem" to="/datenschutz">
+          Datenschutz
+        </Link>
+        <Link className="linkItem" to="/datenschutz">
+          Unsere AGBs
+        </Link>
         <Link className="linkItem" to="/about">
           Über uns
         </Link>
