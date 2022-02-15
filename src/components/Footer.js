@@ -31,7 +31,7 @@ function Footer() {
           Datenschutz
         </Link>
         <Link className="linkItem" to="/agb">
-          Unsere AGBs
+          AGBs
         </Link>
         <Link className="linkItem" to="/about">
           Über uns
