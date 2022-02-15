@@ -11,7 +11,7 @@ function Contact() {
         style={{ backgroundImage: `url(${TitleWhite})` }}
       >
         <div>
-          <div></div>
+          <h1>Bald verfügbar</h1>
         </div>
       </div>
     </Layout>
