@@ -50,6 +50,17 @@ function Header() {
                 Kontakt
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                exact
+                to="/bewerbung"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Bewerbung als Editor
+              </Link>
+            </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <MenuIcon sx={{ fontSize: 45 }} />

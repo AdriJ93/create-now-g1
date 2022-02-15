@@ -1,12 +1,15 @@
 import React from "react"
-import "../styles/agb.css"
+import "../styles/bewerbung.css"
 import TitleWhite from "../images/whiteBackground.jpg"
 import Layout from "../components/Layout.js"
 
 function Contact() {
   return (
     <Layout>
-      <div className="contact">
+      <div
+        className="contact"
+        style={{ backgroundImage: `url(${TitleWhite})` }}
+      >
         <div>
           <div></div>
         </div>

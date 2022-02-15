@@ -6,10 +6,7 @@ import Layout from "../components/Layout.js"
 function Contact() {
   return (
     <Layout>
-      <div
-        className="contact"
-        style={{ backgroundImage: `url(${TitleWhite})` }}
-      >
+      <div className="contact">
         <div>
           <div></div>
         </div>
