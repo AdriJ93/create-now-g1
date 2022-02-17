@@ -1,0 +1,39 @@
+.bewerbung {
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 88vh;
+}
+
+.container {
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 60px 80px 100px 80px;
+  border-radius: 15px;
+  height: fit-content;
+  margin-top: 7%;
+}
+
+.container h1 {
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+
+.container p {
+  font-size: 25px;
+}
+
+.button {
+  margin-top: 30px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  transition-duration: 0.4s;
+  background-color: #f10026;
+  padding: 20px;
+  font-size: 20px;
+}

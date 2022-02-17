@@ -50,6 +50,7 @@ function Header() {
                 Kontakt
               </Link>
             </li>
+
             <li className="nav-item">
               <Link
                 exact
@@ -58,7 +59,7 @@ function Header() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Bewerbung als Editor
+                Werde Editor (m/w/d)
               </Link>
             </li>
           </ul>

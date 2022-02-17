@@ -51,6 +51,21 @@
   display: none;
 }
 
+.header-button {
+  border-radius: 5px;
+  border: none;
+  transition-duration: 0.4s;
+  background-color: #f10026;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.header-button:hover {
+  background-color: white; /* Green */
+  color: black;
+}
+
 @media screen and (max-width: 1023px) {
   .nav-menu {
     display: flex;

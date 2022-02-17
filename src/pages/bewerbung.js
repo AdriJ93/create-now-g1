@@ -6,12 +6,12 @@ import Layout from "../components/Layout.js"
 function Contact() {
   return (
     <Layout>
-      <div
-        className="contact"
-        style={{ backgroundImage: `url(${TitleWhite})` }}
-      >
-        <div>
-          <h1>Bald verfügbar</h1>
+      <div className="home" style={{ backgroundImage: `url(${TitleWhite})` }}>
+        <div className="container">
+          <h1> Du willst bei uns mitmachen?</h1>
+          <a href="https://form.jotform.com/220475386767064" target="_blank">
+            <button className="button"> Jetzt bewerben </button>
+          </a>
         </div>
       </div>
     </Layout>
