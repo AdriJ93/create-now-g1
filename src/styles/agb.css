@@ -1,5 +1,41 @@
 .agb {
   display: flex;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 88vh;
+}
+
+.agb-container {
   flex-direction: column;
-  margin: 3% 15% 5% 15%;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 60px 80px 100px 80px;
+  border-radius: 15px;
+  height: fit-content;
+  margin: 2.4% 5% 5% 5%;
+}
+
+.scroll-div {
+  height: 51vh;
+  width: 80vw;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 1023px) {
+  .agb {
+    height: auto;
+  }
+  .agb-container {
+    width: auto;
+    padding: 20px 20px 20px 20px;
+    margin: 5% 5% 5% 5%;
+  }
+
+  .scroll-div {
+    height: 51vh;
+    width: auto;
+    overflow-y: scroll;
+  }
 }
