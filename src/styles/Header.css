@@ -74,7 +74,7 @@
     border-top: 2px solid #fff;
     position: absolute;
     top: 100px;
-    left: -150%;
+    left: -140%;
     opacity: 1;
     transition: all 0.5s ease;
   }
@@ -88,7 +88,7 @@
   }
 
   .nav-logo-div {
-    margin-left: 10px;
+    margin-left: 30px;
   }
   .nav-logo {
     height: 70px;
@@ -97,9 +97,10 @@
   }
 
   .nav-links {
-    padding: 1.5rem;
+    padding: 1.5rem 0rem 1.5rem 0rem;
     width: 100%;
     display: table;
+    margin-left: 5%;
   }
 
   .nav-icon {
