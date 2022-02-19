@@ -45,20 +45,16 @@
 
 .nav-item {
   margin-right: 1.5rem;
+  margin-top: 0.7rem;
+}
+
+.nav-item-box {
+  padding: 10px;
+  border: 3px solid #c7c7c7;
 }
 
 .nav-icon {
   display: none;
-}
-
-.header-button {
-  border-radius: 5px;
-  border: none;
-  transition-duration: 0.4s;
-  background-color: #f10026;
-  padding: 15px;
-  font-size: 20px;
-  color: white;
 }
 
 .header-button:hover {

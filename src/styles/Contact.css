@@ -99,13 +99,13 @@ form button:hover {
   }
 
   .rightContactSide {
-    margin-top: 5%;
+    display: flex;
     justify-content: center;
+    padding: 5%;
   }
 
   form {
-    width: 300px;
-    margin: 0% 5% 25% 15%;
+    width: 290px;
   }
 
   .leftContactSide h1 {

@@ -51,7 +51,7 @@ function Header() {
               </Link>
             </li>
 
-            <li className="nav-item">
+            <li className="nav-item-box">
               <Link
                 exact
                 to="/bewerbung"
