@@ -51,12 +51,12 @@ function Header() {
               </Link>
             </li>
 
-            <li className="nav-item-box">
+            <li className="nav-item">
               <Link
                 exact
                 to="/bewerbung"
                 activeClassName="active"
-                className="nav-links"
+                className="nav-links-box"
                 onClick={handleClick}
               >
                 Werde Editor (m/w/d)

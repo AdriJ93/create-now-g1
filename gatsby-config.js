@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `CREATE NOW`,
+    title: `Create Now`,
     description: `Unkompliziert und schnell Videoschnitt Projekte umsetzen!`,
     author: `@create-now`,
     siteUrl: `https://www.create-now.net`,
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `CREATE NOW`,
-        short_name: `CREATE NOW`,
+        name: `Create Now`,
+        short_name: `Create Now`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
