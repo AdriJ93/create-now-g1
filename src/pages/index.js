@@ -16,7 +16,7 @@ function Home() {
           <div className="container">
             <h1> Cutter oder Video Editor Freelancer gesucht?</h1>
             <p> Unkompliziert und schnell Videoschnitt Projekte umsetzen!</p>
-            <Link to="/offers">
+            <Link to="/angebote">
               <button className="button"> Unsere Angebote </button>
             </Link>
           </div>
