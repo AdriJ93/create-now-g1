@@ -70,7 +70,7 @@ function Contact() {
           </div>
           <div className="container-join">
             <div>
-              <h1> Du willst bei uns mitmachen?</h1>
+              <h1>Willst du bei uns mitmachen?</h1>
             </div>
             <div className="button-div-join">
               <a
