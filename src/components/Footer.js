@@ -33,7 +33,7 @@ function Footer() {
         <Link className="linkItem" to="/agb">
           AGBs
         </Link>
-        <Link className="linkItem" to="/about">
+        <Link className="linkItem" to="/ueberuns">
           Über uns
         </Link>
       </div>

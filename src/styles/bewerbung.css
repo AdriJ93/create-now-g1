@@ -1,39 +1,125 @@
 .bewerbung {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 88vh;
+  height: auto;
+  padding: 5%;
 }
 
-.container {
+.bewerbung h1 {
+  text-align: center;
+}
+
+.container-offer {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 60px 80px 100px 80px;
+  border-radius: 15px;
+  height: fit-content;
+}
+
+.offer1 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10%;
+}
+
+.check-offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70px;
+}
+
+.text-offer {
+}
+
+.bewerbung-bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-function {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 60px 80px 100px 80px;
+  border-radius: 15px;
+  height: fit-content;
+  margin-top: 2%;
+  width: 50%;
+  margin-right: 1%;
+}
+
+.container-join {
+  display: flex;
   flex-direction: column;
   text-align: center;
   color: white;
   background: rgba(0, 0, 0, 0.8);
   padding: 60px 80px 100px 80px;
   border-radius: 15px;
-  height: fit-content;
-  margin-top: 7%;
+  height: 263px;
+  margin-top: 2%;
+  width: 50%;
+  margin-left: 1%;
 }
 
-.container h1 {
-  font-size: 45px;
-  padding-bottom: 20px;
-}
-
-.container p {
-  font-size: 25px;
+.button-div-join {
+  margin-top: 5%;
 }
 
 .button {
-  margin-top: 30px;
   border-radius: 5px;
   border: none;
   color: white;
   transition-duration: 0.4s;
   background-color: #f10026;
   padding: 20px;
-  font-size: 20px;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  .bewerbung-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-offer {
+    padding: 40px;
+  }
+
+  .container-function {
+    width: 77%;
+    padding: 40px;
+  }
+
+  .container-join {
+    margin-left: 0%;
+    width: 77%;
+    padding: 40px;
+  }
+  .offer1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0%;
+    height: auto;
+  }
+
+  .check-offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60px;
+  }
+
+  .text-offer {
+    width: 250px;
+  }
 }

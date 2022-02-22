@@ -61,7 +61,7 @@ function About() {
               Effekte, schnellere und bessere Schnitttechniken gehören zum guten
               Ton und sind eine Voraussetzung um erfolgreich den eigenen Content
               zu vermarkten. Doch wie genau geht das? An diesem Punkt übernehmen
-              wir! C-NOW vermittelt dir den passenden Editor für deine
+              wir! Create Now vermittelt dir den passenden Editor für deine
               gewünschten Ansprüche! Verschwende keine Zeit, lass es die Profis
               machen!
             </p>

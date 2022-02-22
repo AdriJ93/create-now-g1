@@ -20,7 +20,7 @@ function Header() {
             <li className="nav-item">
               <Link
                 exact
-                to="/offers"
+                to="/angebote"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -31,7 +31,7 @@ function Header() {
             <li className="nav-item">
               <Link
                 exact
-                to="/about"
+                to="/ueberuns"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -42,7 +42,7 @@ function Header() {
             <li className="nav-item">
               <Link
                 exact
-                to="/contact"
+                to="/kontakt"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
