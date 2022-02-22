@@ -96,7 +96,7 @@ form button:hover {
   .leftContactSide {
     justify-content: center;
     align-items: center;
-    padding-left: 22%;
+    padding-left: 15%;
   }
 
   .rightContactSide {
@@ -106,7 +106,7 @@ form button:hover {
   }
 
   form {
-    width: 290px;
+    width: 340px;
   }
 
   .leftContactSide h1 {

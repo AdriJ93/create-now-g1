@@ -126,4 +126,16 @@
     padding-left: 10px;
     padding-right: 0px;
   }
+
+  .nav-links-box {
+    padding: 1.5rem 0rem 1.5rem 0rem;
+    width: 100%;
+    display: table;
+    margin-left: 5%;
+    border: none;
+  }
+
+  .nav-links-box:hover {
+    border: none;
+  }
 }
